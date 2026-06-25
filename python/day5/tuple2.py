@@ -1,0 +1,7 @@
+marks = ('85','90','78','90')
+print('max marks: ',max(marks))
+print('min marks: ', min(marks))
+marks = tuple(int(i) for i in marks) 
+print('sum of marks: ', sum(marks))
+print('length of marks: ',len (marks))
+print('average marks: ', sum(marks)/len(marks))
