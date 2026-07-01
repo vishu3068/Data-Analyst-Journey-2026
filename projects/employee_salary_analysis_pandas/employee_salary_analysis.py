@@ -1,0 +1,11 @@
+import pandas as pd
+df=pd.read_csv("D:\Data_analyst_journey2026\projects\employee_salary_analysis_pandas\Employee Salary Analysis using Pandas.csv")
+print(df)
+print('highest salary:', df['Salary'].max())
+print('lowest salary:', df['Salary'].min())
+print('average salary:', df['Salary'].mean())
+print('total employee:', df.count())
+print('department names:',df['Department'])
+print(df['Salary'])
+print(df[0:5])
+print(df[5:])
